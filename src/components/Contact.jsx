@@ -26,7 +26,7 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    emailjs.send('service_kcsmof9','template_ms4tnff',{ from_name: form.name, to_name: 'vamsi sai',from_email: form.email, to_email:'vamsiawesome319@gmail.com',message: form.message},'J4QEHztvagO9Jdunw')
+    emailjs.send('service_kcsmof9','template_ms4tnff',{ from_name: form.name, to_name: 'rafael takeshi',from_email: form.email, to_email:'rafaektakeshi@gmail.com',message: form.message},'J4QEHztvagO9Jdunw')
 
     .then(()=>{
       setLoading(false);
